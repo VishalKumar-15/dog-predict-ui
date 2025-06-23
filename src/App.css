@@ -1,8 +1,18 @@
 .App {
   text-align: center;
   font-family: sans-serif;
-  padding: 2rem;
-  background: #f9f9f9;
+  /* padding: 2rem; */
+   padding-left: 40%;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  background: url("./assets/backgroundImage.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  scrollbar-width: none;
+  height: 100vh;
+}
+.App::-webkit-scrollbar {
+  display: none;
 }
 
 .upload-form,
